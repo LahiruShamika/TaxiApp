@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Order3"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:padding="20dp">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="352dp"
+        android:layout_height="256dp"
+        app:srcCompat="@drawable/ord_conform" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bangers"
+        android:text="   Order conform"
+        android:textColor="#784B0A"
+        android:textSize="40sp" />
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bangers"
+        android:text="Alert your phone, we will call soon."
+        android:textSize="25sp"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alata"
+        android:padding="12dp"
+        android:textSize="20sp"
+        android:text="The related fee can be known from the employees.you can give money instantly and bank transfer is available."
+
+        />
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_margin="5dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="4dp"
+        android:background="#00000000"
+        android:elevation="0dp"
+        android:text="back to home page"
+        android:textColor="#000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+</LinearLayout>

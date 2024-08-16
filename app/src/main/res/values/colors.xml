@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorToolbarStart">#face2f</color>
+    <color name="colorToolbarEnd">#FFFFFFFF</color>
+    <color name="topcard">#FFBF00</color>
+    <color name="button">#6495ED</color>
+
+
+</resources>

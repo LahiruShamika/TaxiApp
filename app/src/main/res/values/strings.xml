@@ -1,0 +1,14 @@
+<resources>
+        <string name="app_name">project</string>
+        <string name="username">User Name</string>
+        <string name="password">Password</string>
+        <string name="firstname">First Name</string>
+        <string name="lastname">Last Name</string>
+        <string name="password1">Password</string>
+        <string name="name">Enter Name</string>
+        <string name="phonenumber">Enter Phone Number</string>
+        <string name="location">Current location</string>
+        <string name="remark">project</string>
+
+
+</resources>
